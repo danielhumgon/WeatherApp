@@ -16,8 +16,8 @@ const getWeatherCity = payload => ({ type: GET_WEATHER_CITY, payload });
 const setWeatherCity = payload => ({ type: SET_WEATHER_CITY, payload });
 
 const api_key = "3d31b53db8e3e2653b6a681191c95afc";
-const url = "http://api.openweathermap.org/data/2.5/forecast";
-const url_weather = "http://api.openweathermap.org/data/2.5/weather";
+const url = "https://api.openweathermap.org/data/2.5/forecast";
+const url_weather = "https://api.openweathermap.org/data/2.5/weather";
 
 export const setSelectedCity = payload => {
 
